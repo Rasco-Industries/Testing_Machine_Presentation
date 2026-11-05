@@ -198,6 +198,7 @@ th { width: 215px; font-family: var(--sans); font-weight: 600; color: var(--navy
 .contact .addr { font-size: 27px; margin-top: 30px; line-height: 1.35; }
 .closing-logo { position: absolute; right: 96px; top: 76px; width: 230px; height: auto; }
 .closing .foot img { display: none; }
+.closing .foot { justify-content: flex-end; }
 .film-print { display: none; }
 
 /* 05 showcase */
