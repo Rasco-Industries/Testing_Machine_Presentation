@@ -1,0 +1,39 @@
+# Source files: CAD and originals can contain customer names, part numbers and internal paths
+Raw_Images/
+*.easm
+*.EASM
+*.eprt
+*.EPRT
+*.sldasm
+*.SLDASM
+*.sldprt
+*.SLDPRT
+*.slddrw
+*.SLDDRW
+*.step
+*.stp
+*.iges
+*.igs
+
+# Environment and secrets
+.env
+.env.*
+
+# Dependencies and build output
+node_modules/
+dist/
+
+# Editor and local tool settings
+.vscode/
+.idea/
+.claude/
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+~$*
